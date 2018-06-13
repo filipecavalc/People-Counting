@@ -10,8 +10,8 @@ Este projeto nasceu a partir da percepção da carência de informações sobre 
 * Número de visitas
 
 ## Arquitetura da Solução
-
-![alt text](https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Arquitetura%20da%20solução.png)
+<br />
+<img alt="DIAGRAMA DO ESP8266" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Arquitetura%20da%20solução.png" width="250">
 
 ## Descrição da solução
 
@@ -21,12 +21,18 @@ As tecnologias que serão utilizadas são:
 ### ESP8266
 
 ESP8266 é um microcontrolador muito comum para projetos de IOT (Internet Of Things ou Internet das Coisas) que também é uma tecnologia que será utilizada para o projeto.
-O objetivo do é atuar como um sniffer não malicioso, com a unica intenção de capturar os MACADDRESS dos dispositivos proximos juntamente com o horario. Essa informação capturada pelo ESP8266 vai ser disparada para um servidor MQTT que ira tratar e salvar esse dado no banco de dados.
-![alt text](https://raw.githubusercontent.com/filipecavalc/People-Counting/master/ESP8266%20pinout%20NODEMCU.jpeg)
+O objetivo do é atuar como um sniffer não malicioso, com a unica intenção de capturar os MACADDRESS dos dispositivos proximos juntamente com o horario. Essa informação capturada pelo ESP8266 vai ser disparada para um servidor MQTT que ira tratar e salvar esse dado no banco de dados.<br />
+<img alt="DIAGRAMA DO ESP8266" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/ESP8266%20pinout%20NODEMCU.jpeg" width="250">
 
 ### MQTT
 
 É conhecido como Message Queuing Telemetry Transport. O MQTT é um protocolo desenvolvido para mensagens leves, ou seja, com foco em pequenas informações como a de sensores e pequenos dispositivos moveis, possui alta latencia e é otimizado para redes TCP/IP não confiáveis.
-O MQTT trabalha com um conceito de publicadores e inscritos, onde publicadores são os sensores e pequenos dispositivos que fornecem os dados e os inscritos são bancos de dados ou dispositivos variados que leem os dados em tempo real que o broker recebe e fazem os tratamentos que quiserem.
+O MQTT trabalha com um conceito de publicadores e inscritos, onde publicadores são os sensores e pequenos dispositivos que fornecem os dados e os inscritos são bancos de dados ou dispositivos variados que leem os dados em tempo real que o broker recebe e fazem os tratamentos que quiserem.<br />
+<img alt="DIAGRAMA DO MQTT" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/MQTT%20DIAGRAM.png" width="250">
 
-![alt text](https://raw.githubusercontent.com/filipecavalc/People-Counting/master/MQTT%20DIAGRAM.png)
+## Hardware projetado
+Este é o esquemático do harware a ser projetado.<br />
+<img alt="ESQUEMA DO PROJETO DO HARDWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Projeto%20do%20Hardware.png" width="250">
+
+Esta é a imagem do protótipo desenvolvido para testes.<br />
+<img alt="PROTÓTIPO DO HARWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Proto%CC%81tipo%20do%20Hardware.png" width="250">
