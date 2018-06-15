@@ -10,7 +10,7 @@ Este projeto nasceu a partir da percepção da carência de informações sobre 
 * Número de visitas
 
 ## Arquitetura da Solução
-<br /><img alt="DIAGRAMA DA ARQUITETURA" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Arquitetura%20da%20soluc%CC%A7a%CC%83o.png" width="700">
+<br /><img alt="DIAGRAMA DA ARQUITETURA" src="" width="700">
 
 ## Descrição da solução
 
@@ -35,4 +35,4 @@ Este é o esquemático do harware a ser projetado.
 <br /><img alt="ESQUEMA DO PROJETO DO HARDWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Projeto%20do%20Hardware.png" width="650">
 
 Esta é a imagem do protótipo desenvolvido para testes.
-<br /><img alt="PROTÓTIPO DO HARWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Proto%CC%81tipo%20do%20Hardware.png" width="400">
+<br /><img alt="PROTÓTIPO DO HARWARE" src="" width="400">
