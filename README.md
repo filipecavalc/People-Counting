@@ -35,4 +35,4 @@ Este é o esquemático do harware a ser projetado.
 <br /><img alt="ESQUEMA DO PROJETO DO HARDWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Projeto%20do%20Hardware.png" width="650">
 
 Esta é a imagem do protótipo desenvolvido para testes.
-<br /><img alt="PROTÓTIPO DO HARWARE" src="" width="400">
+<br /><img alt="PROTÓTIPO DO HARWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Proto%CC%81tipo%20do%20Hardware.png" width="400">
