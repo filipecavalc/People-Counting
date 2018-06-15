@@ -10,7 +10,7 @@ Este projeto nasceu a partir da percepção da carência de informações sobre 
 * Número de visitas
 
 ## Arquitetura da Solução
-<br /><img alt="DIAGRAMA DA ARQUITETURA" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Arquitetura%20da%20solução.png" width="700">
+<br /><img alt="DIAGRAMA DA ARQUITETURA" src="" width="700">
 
 ## Descrição da solução
 
