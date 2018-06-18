@@ -38,3 +38,26 @@ Esta é a imagem do protótipo desenvolvido para testes.
 <br /><img alt="PROTÓTIPO DO HARWARE" src="https://raw.githubusercontent.com/filipecavalc/People-Counting/master/Prot%C3%B3tipo%20do%20Hardware.png" width="400">
 
 ## Códigos para os ESP8266's
+
+São dois códigos diferentes:
+
+### Coleta dos dados
+
+[Sniffer code](https://github.com/filipecavalc/People-Counting/blob/master/C%C3%B3digos%20do%20ESP8266/Sniffer/Sniffer.ino)
+
+#### Lógica
+
+* Inicializa a porta serial;
+* Configura o modo de operação para Station
+* Desabilita o modo "promiscuous" do ESP8266
+* Realiza conexão em um acess point para obter internet
+* Sincroniza o relogio para vincular o tempo em que os dados estão sendo coletados
+* Configura o callback do metodo que coleta os dados
+  * Monta os dados em formato JSON
+  * Envia os dados em formato JSON para a saída Serial
+* Habilita o modo "promiscuous" do ESP8266
+* Configura o temporizador de retorno de chamada do canal
+
+### Envio dos dados para o Broker MQTT
+
+[MQTT post code](https://github.com/filipecavalc/People-Counting/blob/master/C%C3%B3digos%20do%20ESP8266/MQTTPOST/MQTTPOST.ino)
