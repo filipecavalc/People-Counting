@@ -61,3 +61,18 @@ São dois códigos diferentes:
 ### Envio dos dados para o Broker MQTT
 
 [MQTT post code](https://github.com/filipecavalc/People-Counting/blob/master/C%C3%B3digos%20do%20ESP8266/MQTTPOST/MQTTPOST.ino)
+
+#### Lógica
+
+* Inicializa porta serial
+* Configura o modo de operação para Station
+* Realiza conexão em um acess point para obter internet
+* Conecta ao broker MQTT
+* Loop
+  * Espera o buffer do Serial receber dados
+  * Quando recebe dados na porta serial:
+    * Checa a conexão com WiFi
+      * Se não estiver conectado tenta restabelecer a conexão
+    * Checa a conexão com o broker MQTT
+      * Se não estiver conectado tenta restabelecer a conexão
+   * Envia os dados para o broker MQTT
