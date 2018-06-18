@@ -76,3 +76,13 @@ São dois códigos diferentes:
     * Checa a conexão com o broker MQTT
       * Se não estiver conectado tenta restabelecer a conexão
    * Envia os dados para o broker MQTT
+
+## Código para salvar dados que passam pelo broker no MongoDB
+
+[Como Iniciar o script](https://github.com/filipecavalc/People-Counting/tree/master/mqtt-mongo-recorder)
+[MongoDB config file](https://github.com/filipecavalc/People-Counting/blob/master/mqtt-mongo-recorder/config.js)
+[Script de tratamento dos dados](https://github.com/filipecavalc/People-Counting/blob/master/mqtt-mongo-recorder/server.js)
+
+
+Este código realiza a conexão com o broker para "ouvir" a passagem dos dados e salvar no banco de dados.
+Os dados da mensagem devem estar sendo enviados no padrão JSON, dados fora do formato JSON serão recusados e não serão salvos.
